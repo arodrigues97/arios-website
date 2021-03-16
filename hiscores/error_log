@@ -1,0 +1,9 @@
+[22-Mar-2016 00:40:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'global.validations' doesn't exist' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM v...')
+#1 /home/wildscape498/public_html/lib/user/validation/ValidationManager.php(30): Database->query('SELECT * FROM v...')
+#2 /home/wildscape498/public_html/lib/sys/SystemManager.php(49): ValidationManager->__construct()
+#3 /home/wildscape498/public_html/lib/init.php(22): SystemManager->configure()
+#4 /home/wildscape498/public_html/hiscores/index.php(4): require_once('/home/wildscape...')
+#5 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87

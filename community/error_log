@@ -1,0 +1,66 @@
+[22-Mar-2016 00:36:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'global.validations' doesn't exist' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM v...')
+#1 /home/wildscape498/public_html/lib/user/validation/ValidationManager.php(30): Database->query('SELECT * FROM v...')
+#2 /home/wildscape498/public_html/lib/sys/SystemManager.php(49): ValidationManager->__construct()
+#3 /home/wildscape498/public_html/lib/init.php(22): SystemManager->configure()
+#4 /home/wildscape498/public_html/community/index.php(6): require_once('/home/wildscape...')
+#5 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[22-Mar-2016 00:51:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[22-Mar-2016 00:51:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[22-Mar-2016 00:51:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[22-Mar-2016 00:55:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[22-Mar-2016 07:33:30 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/wildscape498/public_html/lib/module/modules/forums/Threads.module.php on line 90
+[23-Mar-2016 20:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[23-Mar-2016 21:00:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
+[23-Mar-2016 21:00:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'posts' in 'order clause'' in /home/wildscape498/public_html/lib/misc/Database.php:87
+Stack trace:
+#0 /home/wildscape498/public_html/lib/misc/Database.php(87): PDO->query('SELECT * FROM m...')
+#1 /home/wildscape498/public_html/lib/module/modules/forums/TopPoster.module.php(17): Database->query('SELECT * FROM m...')
+#2 /home/wildscape498/public_html/lib/forums/ForumSettings.php(56): TopPoster->load()
+#3 /home/wildscape498/public_html/community/index.php(24): ForumSettings->loadSidebarModules()
+#4 {main}
+  thrown in /home/wildscape498/public_html/lib/misc/Database.php on line 87
